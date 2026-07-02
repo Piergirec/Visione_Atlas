@@ -1,0 +1,653 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "title": "Paper 1",
+      "authors_list": [
+        {
+          "name": "Lead Author 1",
+          "affiliation": "University A",
+          "contact": "author1@university.edu"
+        },
+        {
+          "name": "Co-Author 1",
+          "affiliation": "Institute B",
+          "contact": "coauthor1@institute.org"
+        }
+      ],
+      "authors": "Lead Author 1, Co-Author 1",
+      "keywords": "Business, Funding, Entrepreneurship",
+      "abstract": "An analysis of the startup ecosystem, examining funding trends, entrepreneurial strategies, and the key factors that contribute to the success of new ventures. framework evaluation experiment human",
+      "img": "https://picsum.photos/id/70/200/200",
+      "link": "https://example.com/papers/001.pdf",
+      "track": "Track B: Design",
+      "cluster": 1
+    },
+    {
+      "id": "2",
+      "title": "Paper 2",
+      "authors_list": [
+        {
+          "name": "Lead Author 2",
+          "affiliation": "University A",
+          "contact": "author2@university.edu"
+        },
+        {
+          "name": "Co-Author 2",
+          "affiliation": "Institute B",
+          "contact": "coauthor2@institute.org"
+        }
+      ],
+      "authors": "Lead Author 2, Co-Author 2",
+      "keywords": "Machine Learning, Deep Learning, Neural Networks",
+      "abstract": "This paper explores the latest advancements in artificial intelligence and deep learning, focusing on the development of more efficient neural networks for image processing. study dataset technology evaluation",
+      "img": "https://picsum.photos/id/30/200/200",
+      "link": "https://example.com/papers/002.pdf",
+      "track": "Track B: Design",
+      "cluster": 2
+    },
+    {
+      "id": "3",
+      "title": "Paper 3",
+      "authors_list": [
+        {
+          "name": "Lead Author 3",
+          "affiliation": "University A",
+          "contact": "author3@university.edu"
+        },
+        {
+          "name": "Co-Author 3",
+          "affiliation": "Institute B",
+          "contact": "coauthor3@institute.org"
+        }
+      ],
+      "authors": "Lead Author 3, Co-Author 3",
+      "keywords": "UI, Typography, Visuals",
+      "abstract": "Exploring the evolution of graphic design in the digital age. The paper discusses typography, visual communication, and the impact of aesthetics on user engagement. human experiment evaluation study",
+      "img": "https://picsum.photos/id/20/200/200",
+      "link": "https://example.com/papers/003.pdf",
+      "track": "Track C: Business",
+      "cluster": 0
+    },
+    {
+      "id": "4",
+      "title": "Paper 4",
+      "authors_list": [
+        {
+          "name": "Lead Author 4",
+          "affiliation": "University A",
+          "contact": "author4@university.edu"
+        },
+        {
+          "name": "Co-Author 4",
+          "affiliation": "Institute B",
+          "contact": "coauthor4@institute.org"
+        }
+      ],
+      "authors": "Lead Author 4, Co-Author 4",
+      "keywords": "Business, Funding, Entrepreneurship",
+      "abstract": "An analysis of the startup ecosystem, examining funding trends, entrepreneurial strategies, and the key factors that contribute to the success of new ventures. results future dataset analysis",
+      "img": "https://picsum.photos/id/20/200/200",
+      "link": "https://example.com/papers/004.pdf",
+      "track": "Track C: Business",
+      "cluster": 1
+    },
+    {
+      "id": "5",
+      "title": "Paper 5",
+      "authors_list": [
+        {
+          "name": "Lead Author 5",
+          "affiliation": "University A",
+          "contact": "author5@university.edu"
+        },
+        {
+          "name": "Co-Author 5",
+          "affiliation": "Institute B",
+          "contact": "coauthor5@institute.org"
+        }
+      ],
+      "authors": "Lead Author 5, Co-Author 5",
+      "keywords": "Artificial Intelligence, Ethics, Bias",
+      "abstract": "Addressing the ethical challenges surrounding artificial intelligence. The paper focuses on algorithmic bias, fairness, and the need for responsible AI development. future study human experiment",
+      "img": "https://picsum.photos/id/10/200/200",
+      "link": "https://example.com/papers/005.pdf",
+      "track": "Track C: Business",
+      "cluster": 3
+    },
+    {
+      "id": "6",
+      "title": "Paper 6",
+      "authors_list": [
+        {
+          "name": "Lead Author 6",
+          "affiliation": "University A",
+          "contact": "author6@university.edu"
+        },
+        {
+          "name": "Co-Author 6",
+          "affiliation": "Institute B",
+          "contact": "coauthor6@institute.org"
+        }
+      ],
+      "authors": "Lead Author 6, Co-Author 6",
+      "keywords": "UX, UI, Accessibility",
+      "abstract": "A comprehensive study on user experience design principles, highlighting the importance of accessibility and inclusive interfaces in modern web applications. human dataset study framework",
+      "img": "https://picsum.photos/id/60/200/200",
+      "link": "https://example.com/papers/006.pdf",
+      "track": "Track B: Design",
+      "cluster": 0
+    },
+    {
+      "id": "7",
+      "title": "Paper 7",
+      "authors_list": [
+        {
+          "name": "Lead Author 7",
+          "affiliation": "University A",
+          "contact": "author7@university.edu"
+        }
+      ],
+      "authors": "Lead Author 7",
+      "keywords": "Machine Learning, Deep Learning, Neural Networks",
+      "abstract": "This paper explores the latest advancements in artificial intelligence and deep learning, focusing on the development of more efficient neural networks for image processing. technology future results study",
+      "img": "https://picsum.photos/id/50/200/200",
+      "link": "https://example.com/papers/007.pdf",
+      "track": "Track A: Technology",
+      "cluster": 2
+    },
+    {
+      "id": "8",
+      "title": "Paper 8",
+      "authors_list": [
+        {
+          "name": "Lead Author 8",
+          "affiliation": "University A",
+          "contact": "author8@university.edu"
+        },
+        {
+          "name": "Co-Author 8",
+          "affiliation": "Institute B",
+          "contact": "coauthor8@institute.org"
+        }
+      ],
+      "authors": "Lead Author 8, Co-Author 8",
+      "keywords": "Web, Technology, React",
+      "abstract": "A practical guide to modern web development using React and other cutting-edge technologies. The paper discusses architecture, state management, and performance optimization. experiment human implications results",
+      "img": "https://picsum.photos/id/10/200/200",
+      "link": "https://example.com/papers/008.pdf",
+      "track": "Track B: Design",
+      "cluster": 0
+    },
+    {
+      "id": "9",
+      "title": "Paper 9",
+      "authors_list": [
+        {
+          "name": "Lead Author 9",
+          "affiliation": "University A",
+          "contact": "author9@university.edu"
+        },
+        {
+          "name": "Co-Author 9",
+          "affiliation": "Institute B",
+          "contact": "coauthor9@institute.org"
+        }
+      ],
+      "authors": "Lead Author 9, Co-Author 9",
+      "keywords": "Business, Funding, Entrepreneurship",
+      "abstract": "An analysis of the startup ecosystem, examining funding trends, entrepreneurial strategies, and the key factors that contribute to the success of new ventures. framework evaluation analysis implications",
+      "img": "https://picsum.photos/id/60/200/200",
+      "link": "https://example.com/papers/009.pdf",
+      "track": "Track B: Design",
+      "cluster": 1
+    },
+    {
+      "id": "10",
+      "title": "Paper 10",
+      "authors_list": [
+        {
+          "name": "Lead Author 10",
+          "affiliation": "University A",
+          "contact": "author10@university.edu"
+        },
+        {
+          "name": "Co-Author 10",
+          "affiliation": "Institute B",
+          "contact": "coauthor10@institute.org"
+        }
+      ],
+      "authors": "Lead Author 10, Co-Author 10",
+      "keywords": "UI, Typography, Visuals",
+      "abstract": "Exploring the evolution of graphic design in the digital age. The paper discusses typography, visual communication, and the impact of aesthetics on user engagement. human study results evaluation",
+      "img": "https://picsum.photos/id/60/200/200",
+      "link": "https://example.com/papers/010.pdf",
+      "track": "Track C: Business",
+      "cluster": 0
+    },
+    {
+      "id": "11",
+      "title": "Paper 11",
+      "authors_list": [
+        {
+          "name": "Lead Author 11",
+          "affiliation": "University A",
+          "contact": "author11@university.edu"
+        },
+        {
+          "name": "Co-Author 11",
+          "affiliation": "Institute B",
+          "contact": "coauthor11@institute.org"
+        }
+      ],
+      "authors": "Lead Author 11, Co-Author 11",
+      "keywords": "Business, Marketing, Growth",
+      "abstract": "A detailed look at effective market strategies for scaling tech companies. This paper covers growth hacking, digital marketing, and competitive analysis. dataset human implications future",
+      "img": "https://picsum.photos/id/10/200/200",
+      "link": "https://example.com/papers/011.pdf",
+      "track": "Track C: Business",
+      "cluster": 1
+    },
+    {
+      "id": "12",
+      "title": "Paper 12",
+      "authors_list": [
+        {
+          "name": "Lead Author 12",
+          "affiliation": "University A",
+          "contact": "author12@university.edu"
+        },
+        {
+          "name": "Co-Author 12",
+          "affiliation": "Institute B",
+          "contact": "coauthor12@institute.org"
+        }
+      ],
+      "authors": "Lead Author 12, Co-Author 12",
+      "keywords": "Machine Learning, Deep Learning, Neural Networks",
+      "abstract": "This paper explores the latest advancements in artificial intelligence and deep learning, focusing on the development of more efficient neural networks for image processing. framework experiment technology study",
+      "img": "https://picsum.photos/id/80/200/200",
+      "link": "https://example.com/papers/012.pdf",
+      "track": "Track A: Technology",
+      "cluster": 2
+    },
+    {
+      "id": "13",
+      "title": "Paper 13",
+      "authors_list": [
+        {
+          "name": "Lead Author 13",
+          "affiliation": "University A",
+          "contact": "author13@university.edu"
+        }
+      ],
+      "authors": "Lead Author 13",
+      "keywords": "Artificial Intelligence, Ethics, Bias",
+      "abstract": "Addressing the ethical challenges surrounding artificial intelligence. The paper focuses on algorithmic bias, fairness, and the need for responsible AI development. future evaluation analysis experiment",
+      "img": "https://picsum.photos/id/30/200/200",
+      "link": "https://example.com/papers/013.pdf",
+      "track": "Track C: Business",
+      "cluster": 3
+    },
+    {
+      "id": "14",
+      "title": "Paper 14",
+      "authors_list": [
+        {
+          "name": "Lead Author 14",
+          "affiliation": "University A",
+          "contact": "author14@university.edu"
+        },
+        {
+          "name": "Co-Author 14",
+          "affiliation": "Institute B",
+          "contact": "coauthor14@institute.org"
+        }
+      ],
+      "authors": "Lead Author 14, Co-Author 14",
+      "keywords": "Business, Marketing, Growth",
+      "abstract": "A detailed look at effective market strategies for scaling tech companies. This paper covers growth hacking, digital marketing, and competitive analysis. experiment dataset study results",
+      "img": "https://picsum.photos/id/60/200/200",
+      "link": "https://example.com/papers/014.pdf",
+      "track": "Track C: Business",
+      "cluster": 1
+    },
+    {
+      "id": "15",
+      "title": "Paper 15",
+      "authors_list": [
+        {
+          "name": "Lead Author 15",
+          "affiliation": "University A",
+          "contact": "author15@university.edu"
+        },
+        {
+          "name": "Co-Author 15",
+          "affiliation": "Institute B",
+          "contact": "coauthor15@institute.org"
+        }
+      ],
+      "authors": "Lead Author 15, Co-Author 15",
+      "keywords": "Business, Funding, Entrepreneurship",
+      "abstract": "An analysis of the startup ecosystem, examining funding trends, entrepreneurial strategies, and the key factors that contribute to the success of new ventures. human future evaluation study",
+      "img": "https://picsum.photos/id/80/200/200",
+      "link": "https://example.com/papers/015.pdf",
+      "track": "Track B: Design",
+      "cluster": 1
+    }
+  ],
+  "links": [
+    {
+      "source": "1",
+      "target": "4",
+      "type": "semantic",
+      "value": 0.8238526582717896
+    },
+    {
+      "source": "1",
+      "target": "4",
+      "type": "keyword",
+      "value": 3,
+      "shared": [
+        "entrepreneurship",
+        "business",
+        "funding"
+      ]
+    },
+    {
+      "source": "1",
+      "target": "9",
+      "type": "semantic",
+      "value": 0.9599893093109131
+    },
+    {
+      "source": "1",
+      "target": "9",
+      "type": "keyword",
+      "value": 3,
+      "shared": [
+        "entrepreneurship",
+        "business",
+        "funding"
+      ]
+    },
+    {
+      "source": "1",
+      "target": "11",
+      "type": "keyword",
+      "value": 1,
+      "shared": [
+        "business"
+      ]
+    },
+    {
+      "source": "1",
+      "target": "14",
+      "type": "keyword",
+      "value": 1,
+      "shared": [
+        "business"
+      ]
+    },
+    {
+      "source": "1",
+      "target": "15",
+      "type": "semantic",
+      "value": 0.9311543107032776
+    },
+    {
+      "source": "1",
+      "target": "15",
+      "type": "keyword",
+      "value": 3,
+      "shared": [
+        "entrepreneurship",
+        "business",
+        "funding"
+      ]
+    },
+    {
+      "source": "2",
+      "target": "7",
+      "type": "semantic",
+      "value": 0.9071585536003113
+    },
+    {
+      "source": "2",
+      "target": "7",
+      "type": "keyword",
+      "value": 3,
+      "shared": [
+        "machine learning",
+        "neural networks",
+        "deep learning"
+      ]
+    },
+    {
+      "source": "2",
+      "target": "12",
+      "type": "semantic",
+      "value": 0.8363521695137024
+    },
+    {
+      "source": "2",
+      "target": "12",
+      "type": "keyword",
+      "value": 3,
+      "shared": [
+        "machine learning",
+        "neural networks",
+        "deep learning"
+      ]
+    },
+    {
+      "source": "3",
+      "target": "6",
+      "type": "keyword",
+      "value": 1,
+      "shared": [
+        "ui"
+      ]
+    },
+    {
+      "source": "3",
+      "target": "10",
+      "type": "semantic",
+      "value": 0.9817436337471008
+    },
+    {
+      "source": "3",
+      "target": "10",
+      "type": "keyword",
+      "value": 3,
+      "shared": [
+        "ui",
+        "typography",
+        "visuals"
+      ]
+    },
+    {
+      "source": "4",
+      "target": "9",
+      "type": "semantic",
+      "value": 0.8645724654197693
+    },
+    {
+      "source": "4",
+      "target": "9",
+      "type": "keyword",
+      "value": 3,
+      "shared": [
+        "entrepreneurship",
+        "business",
+        "funding"
+      ]
+    },
+    {
+      "source": "4",
+      "target": "11",
+      "type": "keyword",
+      "value": 1,
+      "shared": [
+        "business"
+      ]
+    },
+    {
+      "source": "4",
+      "target": "14",
+      "type": "keyword",
+      "value": 1,
+      "shared": [
+        "business"
+      ]
+    },
+    {
+      "source": "4",
+      "target": "15",
+      "type": "semantic",
+      "value": 0.8408505916595459
+    },
+    {
+      "source": "4",
+      "target": "15",
+      "type": "keyword",
+      "value": 3,
+      "shared": [
+        "entrepreneurship",
+        "business",
+        "funding"
+      ]
+    },
+    {
+      "source": "5",
+      "target": "13",
+      "type": "semantic",
+      "value": 0.9652052521705627
+    },
+    {
+      "source": "5",
+      "target": "13",
+      "type": "keyword",
+      "value": 3,
+      "shared": [
+        "ethics",
+        "bias",
+        "artificial intelligence"
+      ]
+    },
+    {
+      "source": "6",
+      "target": "10",
+      "type": "keyword",
+      "value": 1,
+      "shared": [
+        "ui"
+      ]
+    },
+    {
+      "source": "7",
+      "target": "12",
+      "type": "semantic",
+      "value": 0.8628244400024414
+    },
+    {
+      "source": "7",
+      "target": "12",
+      "type": "keyword",
+      "value": 3,
+      "shared": [
+        "machine learning",
+        "neural networks",
+        "deep learning"
+      ]
+    },
+    {
+      "source": "9",
+      "target": "11",
+      "type": "keyword",
+      "value": 1,
+      "shared": [
+        "business"
+      ]
+    },
+    {
+      "source": "9",
+      "target": "14",
+      "type": "keyword",
+      "value": 1,
+      "shared": [
+        "business"
+      ]
+    },
+    {
+      "source": "9",
+      "target": "15",
+      "type": "semantic",
+      "value": 0.9109314680099487
+    },
+    {
+      "source": "9",
+      "target": "15",
+      "type": "keyword",
+      "value": 3,
+      "shared": [
+        "entrepreneurship",
+        "business",
+        "funding"
+      ]
+    },
+    {
+      "source": "11",
+      "target": "14",
+      "type": "semantic",
+      "value": 0.9744294881820679
+    },
+    {
+      "source": "11",
+      "target": "14",
+      "type": "keyword",
+      "value": 3,
+      "shared": [
+        "marketing",
+        "business",
+        "growth"
+      ]
+    },
+    {
+      "source": "11",
+      "target": "15",
+      "type": "keyword",
+      "value": 1,
+      "shared": [
+        "business"
+      ]
+    },
+    {
+      "source": "14",
+      "target": "15",
+      "type": "keyword",
+      "value": 1,
+      "shared": [
+        "business"
+      ]
+    }
+  ],
+  "clusters": [
+    {
+      "id": 0,
+      "label": "TYPOGRAPHY • WEB • USER"
+    },
+    {
+      "id": 1,
+      "label": "FUNDING • ANALYSIS • STRATEGIES"
+    },
+    {
+      "id": 2,
+      "label": "LEARNING • NETWORKS • NEURAL"
+    },
+    {
+      "id": 3,
+      "label": "BIAS • INTELLIGENCE • ARTIFICIAL"
+    }
+  ]
+}

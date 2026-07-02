@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Atlas</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Force Graph library -->
+    <script src="//unpkg.com/force-graph"></script>
+</head>
+<body>
+    <!-- Settings Button -->
+    <button id="settings-toggle">⚙️</button>
+
+    <!-- Settings Panel -->
+    <div id="settings-panel" class="hidden">
+        <h3>Graph Settings</h3>
+        <div class="setting-group">
+            <label>Node Distance (Repulsion)</label>
+            <input type="range" id="setting-repulsion" min="10" max="1000" value="300">
+        </div>
+        <div class="setting-group">
+            <label>Link Distance (Springs)</label>
+            <input type="range" id="setting-link-distance" min="10" max="300" value="120">
+        </div>
+        <div class="setting-group">
+            <button id="reset-settings-btn" style="width: 100%; padding: 8px; background: var(--accent-color); color: white; border: none; border-radius: 4px; cursor: pointer; font-weight: bold; margin-top: 10px;">Reset View & Graph</button>
+        </div>
+        <h4>Track Colors</h4>
+        <div id="track-colors-container">
+            <!-- Populated by JS -->
+        </div>
+    </div>
+
+    <!-- Legend -->
+    <div id="legend">
+        <h4>Legend</h4>
+        <div class="legend-item"><span class="legend-line semantic"></span> Semantic Similarity</div>
+        <div class="legend-item"><span class="legend-line keyword"></span> Shared Keyword</div>
+        <hr>
+        <div id="legend-tracks">
+            <!-- Populated by JS -->
+        </div>
+    </div>
+
+    <div id="filter-bar">
+        <select id="track-filter">
+            <option value="">All Tracks</option>
+        </select>
+        <select id="keyword-filter">
+            <option value="">All Keywords</option>
+        </select>
+    </div>
+
+    <div id="graph-container"></div>
+    
+    <div id="side-panel" class="hidden">
+        <button id="close-btn">&times;</button>
+        <img id="panel-img" src="" alt="Cover">
+        <div class="panel-content">
+            <div id="panel-track" class="badge">Track</div>
+            <h2 id="panel-title">Title</h2>
+            <div id="panel-authors-list" class="authors-list"></div>
+            <div class="keywords-container" id="panel-keywords"></div>
+            <div class="abstract-container">
+                <h3>Abstract</h3>
+                <p id="panel-abstract">Abstract text goes here...</p>
+            </div>
+            <a id="panel-link" href="#" target="_blank" class="btn">Read Full Paper</a>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

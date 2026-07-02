@@ -1,0 +1,287 @@
+:root {
+    /* ----- COLORS: EASY TO CUSTOMIZE ----- */
+
+    /* Background & UI Colors (Dark Purple Theme) */
+    --bg-color: #0f0c1b;
+    --panel-bg: rgba(22, 18, 43, 0.95);
+    --text-main: #e0e0e0;
+    --text-muted: #a0a0b0;
+    --accent-color: #8a2be2;
+    /* BlueViolet */
+
+    /* Track Colors (For Node Borders & Badges) */
+    --track-a-color: #9AB559;
+    /* Cyan/Teal for Track A */
+    --track-b-color: #CF8851;
+    /* Magenta for Track B */
+    --track-c-color: #59ABB5;
+    /* Orange/Gold for Track C */
+    --track-default-color: #ffffff;
+
+    /* Link Colors (Edges between nodes) */
+    --link-semantic-color: #9B59B6;
+    /* Purple for Semantic */
+    --link-keyword-color: #cbc214;
+    /* Yellow for Keyword */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+    /* Prevent scrollbars from the canvas */
+}
+
+#graph-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+#filter-bar {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 100;
+    display: flex;
+    gap: 10px;
+    background: rgba(22, 18, 43, 0.8);
+    padding: 10px 15px;
+    border-radius: 8px;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#filter-bar select {
+    background: var(--bg-color);
+    color: var(--text-main);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 8px 12px;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#filter-bar select:hover {
+    border-color: var(--accent-color);
+}
+
+/* Side Panel Styles */
+#side-panel {
+    position: fixed;
+    top: 0;
+    right: -400px;
+    /* Hidden by default */
+    width: 350px;
+    height: 100vh;
+    background-color: var(--panel-bg);
+    box-shadow: -5px 0 25px rgba(0, 0, 0, 0.5);
+    transition: right 0.3s ease-in-out;
+    overflow-y: auto;
+    z-index: 1000;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+#side-panel.open {
+    right: 0;
+}
+
+#close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    color: var(--text-main);
+    font-size: 28px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+#close-btn:hover {
+    color: var(--accent-color);
+}
+
+#panel-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid var(--accent-color);
+}
+
+.panel-content {
+    padding: 25px;
+}
+
+.badge {
+    display: inline-block;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-bottom: 15px;
+    background-color: var(--track-default-color);
+    color: #000;
+}
+
+#panel-title {
+    margin: 0 0 10px 0;
+    font-size: 1.5em;
+    line-height: 1.2;
+}
+
+.authors {
+    color: var(--text-muted);
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.keywords-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 25px;
+}
+
+.keyword-tag {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 0.8em;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.abstract-container h3 {
+    font-size: 1.1em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+#panel-abstract {
+    font-size: 0.95em;
+    line-height: 1.5;
+    color: #cccccc;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    background-color: var(--accent-color);
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.btn:hover {
+    background-color: #9d4edd;
+}
+
+/* Legend Styles */
+#legend {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(22, 18, 43, 0.8);
+    padding: 15px;
+    border-radius: 8px;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255,255,255,0.1);
+    z-index: 100;
+}
+
+#legend h4 { margin: 0 0 10px 0; }
+.legend-item { margin-bottom: 5px; font-size: 0.9em; display: flex; align-items: center; }
+.legend-line { display: inline-block; width: 30px; height: 3px; margin-right: 10px; }
+.legend-line.semantic { background: var(--link-semantic-color); height: 4px; }
+.legend-line.keyword { background: var(--link-keyword-color); height: 2px; }
+.legend-track-color { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 8px; }
+#legend hr { border: 0; border-top: 1px solid rgba(255,255,255,0.2); margin: 10px 0; }
+
+/* Settings Panel */
+#settings-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(22, 18, 43, 0.8);
+    border: 1px solid rgba(255,255,255,0.1);
+    color: white;
+    font-size: 24px;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 101;
+    backdrop-filter: blur(5px);
+}
+
+#settings-panel {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background: var(--panel-bg);
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    z-index: 100;
+    width: 250px;
+    backdrop-filter: blur(10px);
+}
+
+#settings-panel.hidden { display: none; }
+#settings-panel h3 { margin: 0 0 15px 0; font-size: 1.2em; border-bottom: 1px solid rgba(255,255,255,0.2); padding-bottom: 5px;}
+#settings-panel h4 { margin: 15px 0 10px 0; font-size: 1em; color: var(--text-muted); }
+
+.setting-group { margin-bottom: 15px; }
+.setting-group label { display: block; font-size: 0.85em; margin-bottom: 5px; color: var(--text-muted); }
+.setting-group input[type="range"] { width: 100%; }
+
+.color-picker-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-size: 0.9em;
+}
+
+.color-picker-group input[type="color"] {
+    background: none;
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 4px;
+    height: 30px;
+    width: 50px;
+    cursor: pointer;
+}
+
+/* Author List Styles */
+.authors-list {
+    margin-bottom: 20px;
+}
+.author-item {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed rgba(255,255,255,0.1);
+}
+.author-name {
+    font-weight: bold;
+    color: var(--text-main);
+    display: block;
+}
+.author-affil {
+    font-size: 0.85em;
+    color: var(--text-muted);
+    display: block;
+}
+.author-contact {
+    font-size: 0.8em;
+    color: var(--accent-color);
+    text-decoration: none;
+}
