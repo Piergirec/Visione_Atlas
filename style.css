@@ -285,3 +285,51 @@ body {
     color: var(--accent-color);
     text-decoration: none;
 }
+
+/* ----- MOBILE RESPONSIVENESS ----- */
+@media (max-width: 768px) {
+    #side-panel {
+        width: 100vw; /* Prende tutto lo schermo */
+        right: -100vw; /* Nascosto fuori dallo schermo */
+    }
+    
+    #side-panel.open {
+        right: 0;
+    }
+
+    #filter-bar {
+        flex-direction: column;
+        top: 10px;
+        left: 10px;
+        right: 60px; /* Lascia spazio al bottone impostazioni */
+        gap: 5px;
+    }
+
+    #filter-bar select {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    #settings-toggle {
+        top: 10px;
+        right: 10px;
+    }
+
+    #settings-panel {
+        top: 60px;
+        right: 10px;
+        width: calc(100vw - 60px);
+    }
+
+    #legend {
+        bottom: 10px;
+        left: 10px;
+        right: 10px;
+        padding: 10px;
+        font-size: 0.75em;
+    }
+    
+    .panel-content {
+        padding: 15px;
+    }
+}
