@@ -1,9 +1,9 @@
 // Read colors from CSS variables so they stay in sync
 const rootStyles = getComputedStyle(document.documentElement);
 const trackColors = {
-    "Track A: Technology": rootStyles.getPropertyValue('--track-a-color').trim(),
-    "Track B: Design": rootStyles.getPropertyValue('--track-b-color').trim(),
-    "Track C: Business": rootStyles.getPropertyValue('--track-c-color').trim(),
+    "AI for Heritage Conservation and Enhancement": rootStyles.getPropertyValue('--track-a-color').trim(),
+    "AI for Representation and Design": rootStyles.getPropertyValue('--track-b-color').trim(),
+    "AI for Education and Learning": rootStyles.getPropertyValue('--track-c-color').trim(),
 };
 const defaultTrackColor = rootStyles.getPropertyValue('--track-default-color').trim();
 
