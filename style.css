@@ -73,9 +73,9 @@ body {
 #side-panel {
     position: fixed;
     top: 0;
-    right: -400px;
+    right: -500px;
     /* Hidden by default */
-    width: 350px;
+    width: 450px;
     height: 100vh;
     background-color: var(--panel-bg);
     box-shadow: -5px 0 25px rgba(0, 0, 0, 0.5);

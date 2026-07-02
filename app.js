@@ -84,9 +84,9 @@ fetch('graph_data.json').then(res => res.json()).then(data => {
                 const cx = sumX / cNodes.length;
                 const cy = sumY / cNodes.length;
                 
-                const fontSize = 18 / globalScale; // Scaled to always look the same size on screen
+                const fontSize = 32 / globalScale; // Font gigante per renderlo ben visibile
                 ctx.font = `bold ${fontSize}px 'Segoe UI', sans-serif`;
-                ctx.fillStyle = 'rgba(255, 255, 255, 0.1)'; // Subtle background watermark
+                ctx.fillStyle = 'rgba(255, 255, 255, 0.8)'; // Bianco solido e acceso
                 ctx.fillText(cluster.label, cx, cy);
             });
         })
@@ -95,11 +95,10 @@ fetch('graph_data.json').then(res => res.json()).then(data => {
         .linkLabel(link => {
             if (link.type === 'keyword' && link.shared && link.shared.length > 0) {
                 return `<div style="background: rgba(0,0,0,0.8); padding: 5px; border-radius: 4px;">Shared Keyword(s): <b>${link.shared.join(', ')}</b></div>`;
-            } else if (link.type === 'semantic') {
-                return `<div style="background: rgba(0,0,0,0.8); padding: 5px; border-radius: 4px;">Semantic Similarity: <b>${(link.value * 100).toFixed(0)}%</b></div>`;
             }
             return '';
         })
+        .linkVisibility(link => link.type !== 'semantic') // Nasconde dal rendering e dall'hover
         .linkColor(link => {
             const sNode = typeof link.source === 'object' ? link.source : data.nodes.find(n => n.id === link.source);
             const tNode = typeof link.target === 'object' ? link.target : data.nodes.find(n => n.id === link.target);
@@ -107,17 +106,23 @@ fetch('graph_data.json').then(res => res.json()).then(data => {
                                   (nodeMatchesFilters(sNode) || nodeMatchesFilters(tNode));
             
             if (!isHighlighted) return 'rgba(255,255,255,0.02)';
-            return link.type === 'semantic' ? linkSemanticColor : linkKeywordColor;
+            return linkKeywordColor;
         })
         .linkWidth(link => {
+            if (link.type === 'semantic') return 0;
+            
             const sNode = typeof link.source === 'object' ? link.source : data.nodes.find(n => n.id === link.source);
             const tNode = typeof link.target === 'object' ? link.target : data.nodes.find(n => n.id === link.target);
             const isHighlighted = (!activeTrackFilter && !activeKeywordFilter) || 
                                   (nodeMatchesFilters(sNode) || nodeMatchesFilters(tNode));
-            if (!isHighlighted) return 0.5;
-            return link.type === 'semantic' ? 2 : 1;
+            
+            // Lo spessore varia in base a quante keyword condividono (link.value)
+            const thickness = link.value * 0.4; // 1kw = 0.4px (sottile), 3kw = 1.2px (spesso)
+            
+            if (!isHighlighted) return thickness * 0.2; // quasi invisibile se non evidenziato
+            return thickness;
         })
-    .linkDirectionalParticles(link => link.type === 'semantic' ? 2 : 0) // Particles for semantic links
+    .linkDirectionalParticles(link => 0) // Disabilita le particelle per alleggerire la vista
     .linkDirectionalParticleSpeed(0.005)
     .nodeCanvasObject((node, ctx, globalScale) => {
         const size = 12; // Node radius
@@ -132,12 +137,13 @@ fetch('graph_data.json').then(res => res.json()).then(data => {
         ctx.fill();
 
         // 2. Draw Image inside (or fallback to color if no image)
-        if (node.img) {
-            let img = imageCache.get(node.img);
+        const imgSrc = node.thumb || node.img; // Usa la miniatura se esiste
+        if (imgSrc) {
+            let img = imageCache.get(imgSrc);
             if (!img) {
                 img = new Image();
-                img.src = node.img;
-                imageCache.set(node.img, img);
+                img.src = imgSrc;
+                imageCache.set(imgSrc, img);
             }
             
             // Clip to circle
@@ -174,8 +180,8 @@ fetch('graph_data.json').then(res => res.json()).then(data => {
     });
 
     // Customizza le forze fisiche del grafo per separare i nodi
-    graph.d3Force('charge').strength(-300).distanceMax(500); // distanceMax evita che i gruppi disconnessi si spingano via all'infinito
-    graph.d3Force('link').distance(link => link.type === 'semantic' ? 60 : 120); // Distanza fissa dei link
+    graph.d3Force('charge').strength(-800).distanceMax(1000); // Repulsione molto più alta per un grafo aperto
+    graph.d3Force('link').distance(link => link.type === 'semantic' ? 120 : 200); // Distanze più ampie tra i paper
     
     // Auto-center the camera when the simulation settles
     graph.onEngineStop(() => {
@@ -232,10 +238,6 @@ fetch('graph_data.json').then(res => res.json()).then(data => {
     
     // Add base link colors to settings
     trackColorsContainer.innerHTML += `
-        <div class="color-picker-group">
-            <label>Semantic Link</label>
-            <input type="color" id="color-link-semantic" value="${linkSemanticColor.substring(0,7).padEnd(7, '0')}">
-        </div>
         <div class="color-picker-group">
             <label>Keyword Link</label>
             <input type="color" id="color-link-keyword" value="${linkKeywordColor.substring(0,7).padEnd(7, '0')}">
@@ -302,11 +304,7 @@ fetch('graph_data.json').then(res => res.json()).then(data => {
     document.querySelectorAll('.color-picker-group input[type="color"]').forEach(input => {
         input.addEventListener('input', (e) => {
             const color = e.target.value;
-            if (e.target.id === 'color-link-semantic') {
-                linkSemanticColor = color;
-                document.documentElement.style.setProperty('--link-semantic-color', color);
-                graph.linkColor(graph.linkColor());
-            } else if (e.target.id === 'color-link-keyword') {
+            if (e.target.id === 'color-link-keyword') {
                 linkKeywordColor = color;
                 document.documentElement.style.setProperty('--link-keyword-color', color);
                 graph.linkColor(graph.linkColor());
