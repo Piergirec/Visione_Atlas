@@ -16,6 +16,7 @@
       "img": "immagini/2.jpg",
       "thumb": "immagini/2_thumb.jpg",
       "link": "papers/2.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/11vg-C9PoLVAylKJOmQnWy-pJCAXKgpbn/view?usp=drivesdk",
       "track": "AI for Representation and Design",
       "cluster": 2
     },
@@ -40,6 +41,7 @@
       "img": "immagini/3.jpg",
       "thumb": "immagini/3_thumb.jpg",
       "link": "papers/3.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/1qwKwmhnyyHTJASk9kZjdJgbDyo1HJ_1P/view?usp=drivesdk",
       "track": "AI for Representation and Design",
       "cluster": 3
     },
@@ -89,6 +91,7 @@
       "img": "immagini/4.jpg",
       "thumb": "immagini/4_thumb.jpg",
       "link": "papers/4.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/1xNtRwc_BXhzmpjCOeXAKsTSA8pqsOQ8k/view?usp=drivesdk",
       "track": "AI for Representation and Design",
       "cluster": 2
     },
@@ -108,6 +111,7 @@
       "img": "immagini/6.jpg",
       "thumb": "immagini/6_thumb.jpg",
       "link": "papers/6.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/126YfUFvUFEIWXD2GhU_GfBjMxWt2ZLZC/view?usp=drivesdk",
       "track": "AI for Representation and Design",
       "cluster": 2
     },
@@ -137,6 +141,7 @@
       "img": "immagini/7.jpg",
       "thumb": "immagini/7_thumb.jpg",
       "link": "papers/7.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/15IIln93fPo4hlfGJnRu4K1cMEXiqoe5Q/view?usp=drivesdk",
       "track": "AI for Representation and Design",
       "cluster": 1
     },
@@ -161,6 +166,7 @@
       "img": "immagini/8.jpg",
       "thumb": "immagini/8_thumb.jpg",
       "link": "papers/8.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/1Q3zH4mDS-dEM-1TPoP3HNlBbZSwGaqfl/view?usp=drivesdk",
       "track": "AI for Representation and Design",
       "cluster": 2
     },
@@ -190,6 +196,7 @@
       "img": "immagini/11.jpg",
       "thumb": "immagini/11_thumb.jpg",
       "link": "papers/11.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/1Un9zZgL99Udsx-6A3XjMBzybsdfItyib/view?usp=drivesdk",
       "track": "AI for Representation and Design",
       "cluster": 3
     },
@@ -209,6 +216,7 @@
       "img": "immagini/12.jpg",
       "thumb": "immagini/12_thumb.jpg",
       "link": "papers/12.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/1OxN9AsP_BTzZXzK7zPYu7p25KD7vUHr4/view?usp=drivesdk",
       "track": "AI for Representation and Design",
       "cluster": 2
     },
@@ -228,6 +236,7 @@
       "img": "immagini/14.jpg",
       "thumb": "immagini/14_thumb.jpg",
       "link": "papers/14.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/1J1qNXw72K7Ob2Am_GoqgsnLfQNK5jsuV/view?usp=drivesdk",
       "track": "AI for Representation and Design",
       "cluster": 2
     },
@@ -252,6 +261,7 @@
       "img": "immagini/15.jpg",
       "thumb": "immagini/15_thumb.jpg",
       "link": "papers/15.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/1duBSy60Q38H1sUVmxPFJod-zmXtAZZ7B/view?usp=drivesdk",
       "track": "AI for Representation and Design",
       "cluster": 2
     },
@@ -271,6 +281,7 @@
       "img": "immagini/16.jpg",
       "thumb": "immagini/16_thumb.jpg",
       "link": "papers/16.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/1djfbQCRhhv170RxB6otUzsuyulHwqV4P/view?usp=drivesdk",
       "track": "AI for Representation and Design",
       "cluster": 3
     },
@@ -290,6 +301,7 @@
       "img": "immagini/20.jpg",
       "thumb": "immagini/20_thumb.jpg",
       "link": "papers/20.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/18SdWK3UJpkJ03UEI5tHcrhQU5gCiTBul/view?usp=drivesdk",
       "track": "AI for Representation and Design",
       "cluster": 2
     },
@@ -319,6 +331,7 @@
       "img": "immagini/21.jpg",
       "thumb": "immagini/21_thumb.jpg",
       "link": "papers/21.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/1PehaDnrpzEx1RAu3ZNj5uUHiyhETpJqv/view?usp=drivesdk",
       "track": "AI for Representation and Design",
       "cluster": 3
     },
@@ -338,6 +351,7 @@
       "img": "immagini/22.jpg",
       "thumb": "immagini/22_thumb.jpg",
       "link": "papers/22.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/15ytn0SP0VAHQuqiz0vSMs1bzSRFLnbh5/view?usp=drivesdk",
       "track": "AI for Representation and Design",
       "cluster": 1
     },
@@ -362,6 +376,7 @@
       "img": "immagini/23.jpg",
       "thumb": "immagini/23_thumb.jpg",
       "link": "papers/23.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/1ZrBzUqtBE0tVeJ-TXd05p5O7GpHWytBD/view?usp=drivesdk",
       "track": "AI for Representation and Design",
       "cluster": 3
     },
@@ -381,6 +396,7 @@
       "img": "immagini/24.jpg",
       "thumb": "immagini/24_thumb.jpg",
       "link": "papers/24.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/1T3xF1oROK4PdZkf7agD_Od_NlhKniviO/view?usp=drivesdk",
       "track": "AI for Representation and Design",
       "cluster": 2
     },
@@ -400,6 +416,7 @@
       "img": "immagini/25.jpg",
       "thumb": "immagini/25_thumb.jpg",
       "link": "papers/25.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/1QZKUlFPdQiuYZn2HuFB02y_KB-XJfz5S/view?usp=drivesdk",
       "track": "AI for Representation and Design",
       "cluster": 0
     },
@@ -419,6 +436,7 @@
       "img": "immagini/26.jpg",
       "thumb": "immagini/26_thumb.jpg",
       "link": "papers/26.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/1VErtAtUzJch34dO0x4Af7dDSoinNtaA9/view?usp=drivesdk",
       "track": "AI for Representation and Design",
       "cluster": 2
     },
@@ -448,6 +466,7 @@
       "img": "immagini/27.jpg",
       "thumb": "immagini/27_thumb.jpg",
       "link": "papers/27.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/16uA9fKhxyp0YM_R8N3_H2ndJrJU4HYx7/view?usp=drivesdk",
       "track": "AI for Representation and Design",
       "cluster": 2
     },
@@ -472,6 +491,7 @@
       "img": "immagini/28.jpg",
       "thumb": "immagini/28_thumb.jpg",
       "link": "papers/28.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/1HyUtYt3slLDF5hEWTrk92TSY1e36o82h/view?usp=drivesdk",
       "track": "AI for Representation and Design",
       "cluster": 1
     },
@@ -496,6 +516,7 @@
       "img": "immagini/29.jpg",
       "thumb": "immagini/29_thumb.jpg",
       "link": "papers/29.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/1KGk6V35ScVaMUjfzt8yPkRvHE6nW19vq/view?usp=drivesdk",
       "track": "AI for Representation and Design",
       "cluster": 2
     },
@@ -515,6 +536,7 @@
       "img": "immagini/30.jpg",
       "thumb": "immagini/30_thumb.jpg",
       "link": "papers/30.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/16thHTwE8vdg2sS8AUdGIh97mObMy4_GP/view?usp=drivesdk",
       "track": "AI for Representation and Design",
       "cluster": 1
     },
@@ -544,6 +566,7 @@
       "img": "immagini/31.jpg",
       "thumb": "immagini/31_thumb.jpg",
       "link": "papers/31.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/1QmNwRegMWDsHk0C0c5YMGVQYeKTEyV02/view?usp=drivesdk",
       "track": "AI for Representation and Design",
       "cluster": 2
     },
@@ -563,6 +586,7 @@
       "img": "immagini/32.jpg",
       "thumb": "immagini/32_thumb.jpg",
       "link": "papers/32.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/1smyD8BNIjjAWWt0hnkAITqwWJFKLLSw2/view?usp=drivesdk",
       "track": "AI for Representation and Design",
       "cluster": 2
     },
@@ -592,6 +616,7 @@
       "img": "immagini/33.jpg",
       "thumb": "immagini/33_thumb.jpg",
       "link": "papers/33.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/11l5O1SEBfS_oI3CebpsnHMZazSuyh0PO/view?usp=drivesdk",
       "track": "AI for Representation and Design",
       "cluster": 0
     },
@@ -616,6 +641,7 @@
       "img": "immagini/34.jpg",
       "thumb": "immagini/34_thumb.jpg",
       "link": "papers/34.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/1w17QXCzf_1vhUH0C0Ix8Bf6-7O6vuO-O/view?usp=drivesdk",
       "track": "AI for Representation and Design",
       "cluster": 0
     },
@@ -645,6 +671,7 @@
       "img": "immagini/35.jpg",
       "thumb": "immagini/35_thumb.jpg",
       "link": "papers/35.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/1pIjbCqOQZ2-FJJUQbNi06EfuyGh29Ypt/view?usp=drivesdk",
       "track": "AI for Representation and Design",
       "cluster": 1
     },
@@ -674,6 +701,7 @@
       "img": "immagini/36.jpg",
       "thumb": "immagini/36_thumb.jpg",
       "link": "papers/36.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/1ti_SqBWxeAxEMO9zM_4EWcSvkAvAoptl/view?usp=drivesdk",
       "track": "AI for Representation and Design",
       "cluster": 2
     },
@@ -693,6 +721,7 @@
       "img": "immagini/37.jpg",
       "thumb": "immagini/37_thumb.jpg",
       "link": "papers/37.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/1V8kQLuJc2NsC86zZShCdvi9mItWbwNUP/view?usp=drivesdk",
       "track": "AI for Representation and Design",
       "cluster": 2
     },
@@ -722,6 +751,7 @@
       "img": "immagini/39.jpg",
       "thumb": "immagini/39_thumb.jpg",
       "link": "papers/39.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/14A5UNdNqgk7gV2mVsDe34LWL9n5InEGb/view?usp=drivesdk",
       "track": "AI for Heritage Conservation and Enhancement",
       "cluster": 0
     },
@@ -746,6 +776,7 @@
       "img": "immagini/40.jpg",
       "thumb": "immagini/40_thumb.jpg",
       "link": "papers/40.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/1ujidqK3tXSBO6dBJG1G3IUSB7B4Et-eK/view?usp=drivesdk",
       "track": "AI for Heritage Conservation and Enhancement",
       "cluster": 1
     },
@@ -765,6 +796,7 @@
       "img": "immagini/41.jpg",
       "thumb": "immagini/41_thumb.jpg",
       "link": "papers/41.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/1RW88L8l6cSypYH5GPY31bikVGcQ10WLv/view?usp=drivesdk",
       "track": "AI for Heritage Conservation and Enhancement",
       "cluster": 2
     },
@@ -784,6 +816,7 @@
       "img": "immagini/42.jpg",
       "thumb": "immagini/42_thumb.jpg",
       "link": "papers/42.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/1T-O8Vsj7W4UWMsK0jwYXgIEgoauQOuOK/view?usp=drivesdk",
       "track": "AI for Heritage Conservation and Enhancement",
       "cluster": 2
     },
@@ -813,6 +846,7 @@
       "img": "immagini/43.jpg",
       "thumb": "immagini/43_thumb.jpg",
       "link": "papers/43.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/1fnkzu6ydRKufbCVDWbRMlbcHxQj5_VSw/view?usp=drivesdk",
       "track": "AI for Heritage Conservation and Enhancement",
       "cluster": 3
     },
@@ -837,6 +871,7 @@
       "img": "immagini/47.jpg",
       "thumb": "immagini/47_thumb.jpg",
       "link": "papers/47.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/1DFUjyhJAKmfYnVJ_u2wqJPbLF62WNd2x/view?usp=drivesdk",
       "track": "AI for Heritage Conservation and Enhancement",
       "cluster": 3
     },
@@ -856,6 +891,7 @@
       "img": "immagini/48.jpg",
       "thumb": "immagini/48_thumb.jpg",
       "link": "papers/48.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/1ZMGoML8jKIjyPBLWOh5DIypSMp0sPJcw/view?usp=drivesdk",
       "track": "AI for Heritage Conservation and Enhancement",
       "cluster": 2
     },
@@ -875,6 +911,7 @@
       "img": "immagini/50.jpg",
       "thumb": "immagini/50_thumb.jpg",
       "link": "papers/50.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/1m7uuuGQjsO8-bPHNdv0z0dhSaxSWm4_m/view?usp=drivesdk",
       "track": "AI for Heritage Conservation and Enhancement",
       "cluster": 3
     },
@@ -904,6 +941,7 @@
       "img": "immagini/52.jpg",
       "thumb": "immagini/52_thumb.jpg",
       "link": "papers/52.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/1NkyiG27TWahB6fglXJ491h18Bys9HO87/view?usp=drivesdk",
       "track": "AI for Education and Learning",
       "cluster": 3
     },
@@ -928,6 +966,7 @@
       "img": "immagini/53.jpg",
       "thumb": "immagini/53_thumb.jpg",
       "link": "papers/53.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/1tjmQOEW1KswWIf0TSIn5bUGfLquTfmJz/view?usp=drivesdk",
       "track": "AI for Education and Learning",
       "cluster": 1
     },
@@ -947,6 +986,7 @@
       "img": "immagini/54.jpg",
       "thumb": "immagini/54_thumb.jpg",
       "link": "papers/54.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/1AKwg7DbVOkoowk4juaD7166saZyMOpsN/view?usp=drivesdk",
       "track": "AI for Education and Learning",
       "cluster": 1
     },
@@ -966,6 +1006,7 @@
       "img": "immagini/55.jpg",
       "thumb": "immagini/55_thumb.jpg",
       "link": "papers/55.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/18Pwumvixr846HSvCJAutA3dFnkIYSS0j/view?usp=drivesdk",
       "track": "AI for Education and Learning",
       "cluster": 2
     },
@@ -985,6 +1026,7 @@
       "img": "immagini/56.jpg",
       "thumb": "immagini/56_thumb.jpg",
       "link": "papers/56.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/1tpQdSSbus5ie20oOuflaWFYyeHCu66-Q/view?usp=drivesdk",
       "track": "AI for Education and Learning",
       "cluster": 1
     },
@@ -1009,6 +1051,7 @@
       "img": "immagini/57.jpg",
       "thumb": "immagini/57_thumb.jpg",
       "link": "papers/57.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/1i9LyTQUqUuhne_X60Wvu_nnNj5oHxM8f/view?usp=drivesdk",
       "track": "AI for Education and Learning",
       "cluster": 1
     },
@@ -1033,6 +1076,7 @@
       "img": "immagini/58.jpg",
       "thumb": "immagini/58_thumb.jpg",
       "link": "papers/58.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/19MlaAQhZlmJ8TPmqUGkp86lOBzsoFl8C/view?usp=drivesdk",
       "track": "AI for Education and Learning",
       "cluster": 3
     },
@@ -1062,6 +1106,7 @@
       "img": "immagini/59.jpg",
       "thumb": "immagini/59_thumb.jpg",
       "link": "papers/59.pdf",
+      "pdfUrl": "https://drive.google.com/file/d/1GyVvNAhgBr9ch6F1A2w5hiNplnSTw18G/view?usp=drivesdk",
       "track": "AI for Education and Learning",
       "cluster": 2
     }
@@ -1563,9 +1608,9 @@
       "type": "keyword",
       "value": 3,
       "shared": [
-        "interdisciplinary research",
         "human-ai collaboration",
-        "interactive digital documentation"
+        "interactive digital documentation",
+        "interdisciplinary research"
       ]
     },
     {
@@ -2250,8 +2295,8 @@
       "type": "keyword",
       "value": 2,
       "shared": [
-        "human-ai co-creation",
-        "generative ai"
+        "generative ai",
+        "human-ai co-creation"
       ]
     },
     {
@@ -2392,8 +2437,8 @@
       "type": "keyword",
       "value": 2,
       "shared": [
-        "human-ai co-creation",
-        "generative ai"
+        "generative ai",
+        "human-ai co-creation"
       ]
     },
     {
@@ -2466,8 +2511,8 @@
       "type": "keyword",
       "value": 2,
       "shared": [
-        "human-ai co-creation",
-        "generative ai"
+        "generative ai",
+        "human-ai co-creation"
       ]
     },
     {
@@ -2500,8 +2545,8 @@
       "type": "keyword",
       "value": 2,
       "shared": [
-        "human-ai co-creation",
-        "generative ai"
+        "generative ai",
+        "human-ai co-creation"
       ]
     },
     {
@@ -2766,8 +2811,8 @@
       "type": "keyword",
       "value": 3,
       "shared": [
-        "human-ai co-creation",
         "computational creativity",
+        "human-ai co-creation",
         "computational aesthetics"
       ]
     },
@@ -2816,8 +2861,8 @@
       "type": "keyword",
       "value": 2,
       "shared": [
-        "human-ai co-creation",
-        "computational creativity"
+        "computational creativity",
+        "human-ai co-creation"
       ]
     },
     {
@@ -2847,8 +2892,8 @@
       "type": "keyword",
       "value": 2,
       "shared": [
-        "human-ai co-creation",
-        "computational creativity"
+        "computational creativity",
+        "human-ai co-creation"
       ]
     },
     {
@@ -2937,8 +2982,8 @@
       "type": "keyword",
       "value": 2,
       "shared": [
-        "human-ai co-creation",
-        "computational creativity"
+        "computational creativity",
+        "human-ai co-creation"
       ]
     },
     {
@@ -3453,8 +3498,8 @@
       "type": "keyword",
       "value": 2,
       "shared": [
-        "human-ai co-creation",
-        "computational creativity"
+        "computational creativity",
+        "human-ai co-creation"
       ]
     },
     {
@@ -3484,8 +3529,8 @@
       "type": "keyword",
       "value": 2,
       "shared": [
-        "human-ai co-creation",
-        "computational creativity"
+        "computational creativity",
+        "human-ai co-creation"
       ]
     },
     {
@@ -3544,8 +3589,8 @@
       "type": "keyword",
       "value": 2,
       "shared": [
-        "human-ai co-creation",
-        "generative ai"
+        "generative ai",
+        "human-ai co-creation"
       ]
     },
     {
@@ -3566,8 +3611,8 @@
       "type": "keyword",
       "value": 2,
       "shared": [
-        "human-ai co-creation",
-        "computational creativity"
+        "computational creativity",
+        "human-ai co-creation"
       ]
     },
     {
@@ -3624,8 +3669,8 @@
       "type": "keyword",
       "value": 2,
       "shared": [
-        "human-ai co-creation",
-        "generative ai"
+        "generative ai",
+        "human-ai co-creation"
       ]
     },
     {
@@ -3662,8 +3707,8 @@
       "type": "keyword",
       "value": 2,
       "shared": [
-        "human-ai co-creation",
-        "generative ai"
+        "generative ai",
+        "human-ai co-creation"
       ]
     },
     {
@@ -4797,8 +4842,8 @@
       "type": "keyword",
       "value": 3,
       "shared": [
-        "human-ai co-creation",
         "computational creativity",
+        "human-ai co-creation",
         "extended intelligence"
       ]
     },
@@ -4866,8 +4911,8 @@
       "type": "keyword",
       "value": 2,
       "shared": [
-        "human-ai co-creation",
-        "computational creativity"
+        "computational creativity",
+        "human-ai co-creation"
       ]
     },
     {
@@ -5312,8 +5357,8 @@
       "type": "keyword",
       "value": 2,
       "shared": [
-        "human-ai co-creation",
-        "computational creativity"
+        "computational creativity",
+        "human-ai co-creation"
       ]
     },
     {
@@ -6114,8 +6159,8 @@
       "type": "keyword",
       "value": 2,
       "shared": [
-        "human-ai co-creation",
-        "generative ai"
+        "generative ai",
+        "human-ai co-creation"
       ]
     },
     {
@@ -6145,8 +6190,8 @@
       "type": "keyword",
       "value": 2,
       "shared": [
-        "human-ai co-creation",
-        "generative ai"
+        "generative ai",
+        "human-ai co-creation"
       ]
     },
     {
@@ -6893,8 +6938,8 @@
       "type": "keyword",
       "value": 2,
       "shared": [
-        "ai ethics",
-        "speculative design"
+        "speculative design",
+        "ai ethics"
       ]
     },
     {
@@ -6936,8 +6981,8 @@
       "type": "keyword",
       "value": 2,
       "shared": [
-        "ai ethics",
-        "image generation"
+        "image generation",
+        "ai ethics"
       ]
     },
     {
@@ -7102,8 +7147,8 @@
       "type": "keyword",
       "value": 2,
       "shared": [
-        "human-ai collaboration",
-        "dynamic storytelling"
+        "dynamic storytelling",
+        "human-ai collaboration"
       ]
     },
     {
@@ -7214,8 +7259,8 @@
       "type": "keyword",
       "value": 2,
       "shared": [
-        "human-ai co-creation",
-        "generative ai"
+        "generative ai",
+        "human-ai co-creation"
       ]
     },
     {
@@ -7794,8 +7839,8 @@
       "type": "keyword",
       "value": 2,
       "shared": [
-        "fine-tuning techinques",
-        "large language models (llms)"
+        "large language models (llms)",
+        "fine-tuning techinques"
       ]
     },
     {

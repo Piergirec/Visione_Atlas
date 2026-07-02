@@ -379,7 +379,10 @@ function openPanel(node) {
     document.getElementById('panel-abstract').textContent = node.abstract || 'No abstract available.';
     
     const linkEl = document.getElementById('panel-link');
-    if (node.link) {
+    if (node.pdfUrl) {
+        linkEl.href = node.pdfUrl;
+        linkEl.style.display = 'block';
+    } else if (node.link) {
         linkEl.href = node.link;
         linkEl.style.display = 'block';
     } else {
