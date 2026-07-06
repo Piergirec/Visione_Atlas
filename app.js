@@ -20,6 +20,7 @@ function getTrackColor(trackName) {
 // Filter state
 let activeTrackFilter = '';
 let activeKeywordFilter = '';
+let currentBgTextSize = 80;
 
 function nodeMatchesFilters(node) {
     let matchTrack = true;
@@ -84,7 +85,7 @@ fetch('graph_data.json').then(res => res.json()).then(data => {
                 const cx = sumX / cNodes.length;
                 const cy = sumY / cNodes.length;
                 
-                const fontSize = 80; // Dimensione fissa nel canvas, scala in proporzione con lo zoom
+                const fontSize = currentBgTextSize; // Dimensione dal selettore, scala con lo zoom
                 ctx.font = `bold ${fontSize}px 'Segoe UI', sans-serif`;
                 ctx.fillStyle = 'rgba(255, 255, 255, 0.8)'; // Bianco solido e acceso
                 ctx.fillText(cluster.label, cx, cy);
@@ -256,9 +257,9 @@ fetch('graph_data.json').then(res => res.json()).then(data => {
         
         // Impostazioni Colore (if it maps to a var)
         let varName = '';
-        if(track === 'Track A: Technology') varName = '--track-a-color';
-        if(track === 'Track B: Design') varName = '--track-b-color';
-        if(track === 'Track C: Business') varName = '--track-c-color';
+        if(track === 'AI for Heritage Conservation and Enhancement') varName = '--track-a-color';
+        if(track === 'AI for Representation and Design') varName = '--track-b-color';
+        if(track === 'AI for Education and Learning') varName = '--track-c-color';
         
         if (varName) {
             const colorGroup = document.createElement('div');
@@ -278,14 +279,23 @@ fetch('graph_data.json').then(res => res.json()).then(data => {
 
     // Sliders
     document.getElementById('setting-repulsion').addEventListener('input', (e) => {
-        graph.d3Force('charge').strength(-parseInt(e.target.value)).distanceMax(500);
+        graph.d3Force('charge').strength(-e.target.value).distanceMax(1000);
         graph.d3ReheatSimulation();
     });
+    
     document.getElementById('setting-link-distance').addEventListener('input', (e) => {
         const val = parseInt(e.target.value);
-        graph.d3Force('link').distance(link => link.type === 'semantic' ? val/2 : val);
+        graph.d3Force('link').distance(link => link.type === 'semantic' ? val : val * 1.5);
         graph.d3ReheatSimulation();
     });
+
+    const bgTextSlider = document.getElementById('setting-bg-text-size');
+    if (bgTextSlider) {
+        bgTextSlider.addEventListener('input', (e) => {
+            currentBgTextSize = parseInt(e.target.value);
+            // Non serve reheatSimulation, la canvas si ridisegna da sola al prossimo frame
+        });
+    }
     
     // Reset Button
     document.getElementById('reset-settings-btn').addEventListener('click', () => {
