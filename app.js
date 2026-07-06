@@ -84,7 +84,7 @@ fetch('graph_data.json').then(res => res.json()).then(data => {
                 const cx = sumX / cNodes.length;
                 const cy = sumY / cNodes.length;
                 
-                const fontSize = 32 / globalScale; // Font gigante per renderlo ben visibile
+                const fontSize = 80; // Dimensione fissa nel canvas, scala in proporzione con lo zoom
                 ctx.font = `bold ${fontSize}px 'Segoe UI', sans-serif`;
                 ctx.fillStyle = 'rgba(255, 255, 255, 0.8)'; // Bianco solido e acceso
                 ctx.fillText(cluster.label, cx, cy);
@@ -124,6 +124,8 @@ fetch('graph_data.json').then(res => res.json()).then(data => {
         })
     .linkDirectionalParticles(link => 0) // Disabilita le particelle per alleggerire la vista
     .linkDirectionalParticleSpeed(0.005)
+    .minZoom(0.2) // Limita lo zoom out massimo per evitare che il grafo sparisca
+    .maxZoom(10)  // Limita lo zoom in massimo
     .nodeCanvasObject((node, ctx, globalScale) => {
         const size = 12; // Node radius
         
